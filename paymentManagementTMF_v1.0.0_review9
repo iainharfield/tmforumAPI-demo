@@ -1,5 +1,5 @@
 ﻿{
-  "basePath": "/paymentManagement/v1",
+  "basePath": "/IRHpaymentManagement/v1",
   "definitions": {
     "PaymentMethodType": {
       "description": "Representation of a payment method",
