@@ -1,4 +1,4 @@
-﻿{
+{
   "basePath": "/paymentManagement/v1",
   "definitions": {
     "PaymentMethodType": {
