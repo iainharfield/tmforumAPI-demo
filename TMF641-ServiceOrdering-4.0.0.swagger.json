@@ -1284,6 +1284,14 @@
                     }, 
                     "description": "Extra-information about the order; e.g. useful to add extra delivery information that could be useful for a human process"
                 }, 
+                "orderItem": {
+                    "type": "array", 
+                    "items": {
+                        "$ref": "#/definitions/ServiceOrderItem"
+                    }, 
+                    "minItems": 1, 
+                    "description": "A list of service order items to be processed by this order"
+                }, 
                 "orderRelationship": {
                     "type": "array", 
                     "items": {
